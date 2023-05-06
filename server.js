@@ -6,6 +6,7 @@ const connectDB = require("./db/db");
 const patients = require("./routers/patients");
 const staff = require("./routers/staff");
 const contacts = require("./routers/contacts");
+const chats = require("./routers/chats");
 
 const auth = require("./routers/auth");
 
@@ -18,6 +19,7 @@ connectDB();
 app.use("/api", patients);
 app.use("/api", staff);
 app.use("/api", contacts);
+app.use("/api", chats);
 
 app.use("/auth", auth);
 

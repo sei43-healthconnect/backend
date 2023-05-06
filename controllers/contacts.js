@@ -20,17 +20,17 @@ const putContacts = async (req, res) => {
     return res.status(400).json({ errors: errors.array() });
   }
 
-  const createdPatient = new Contacts({
-    contact_id: req.body.contact_id,
+  const createdContact = new Contacts({
     contact_firstName: req.body.contact_firstName,
     contact_lastName: req.body.contact_lastName,
     contact_gender: req.body.gender,
     contact_phoneNumber: req.body.contact_phoneNumber,
     contact_order: req.body.contact_order,
-    patient_id: req.body.patient_id,
+    contact_password: req.body.contact_password,
+    contact_patientNric: req.body.contact_patientNric,
   });
 
-  await createdPatient.save();
+  await createdContact.save();
 
   res.json({ status: "ok", msg: "created" });
 };

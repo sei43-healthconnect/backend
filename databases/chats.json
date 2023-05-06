@@ -2,8 +2,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b6d"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff001",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a74",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -14,8 +14,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b6e"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff001",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a74",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -26,8 +26,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b6f"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "contact000",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "645675b9a6dd86f41a94b159",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -38,8 +38,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b70"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "contact000",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "645675b9a6dd86f41a94b159",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -50,8 +50,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b71"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff004",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a77",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -62,8 +62,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b72"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "contact001",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "645675b9a6dd86f41a94b159",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -74,8 +74,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b73"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff004",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a77",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -86,8 +86,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b74"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "contact000",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "645675b9a6dd86f41a94b159",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -98,8 +98,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b75"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff004",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a77",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -110,8 +110,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b76"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "contact001",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "645675b9a6dd86f41a94b159",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -122,8 +122,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b77"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff006",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a77",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -134,8 +134,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b78"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "contact001",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "c645675b9a6dd86f41a94b159",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -146,8 +146,8 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b79"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff010",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a7a",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
@@ -158,20 +158,20 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b7a"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "contact000",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "645675b9a6dd86f41a94b15a",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
     "$date": "2023-04-17T23:22:00.000Z"
   },
-  "msg_content": "ok ok, sorry"
+  "msg_content": "ok ok, sorry. That was my husband fooling around..."
 },{
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b7b"
   },
-  "chat_id": "patient000",
-  "msg_senderId": "staff010",
+  "chat_id": "6454e1b39d39467f4d224a1a",
+  "msg_senderId": "6454e24f9d39467f4d224a7a",
   "msg_fromNurse": true,
   "msg_isRead": false,
   "msg_timeSent": {
@@ -182,99 +182,60 @@
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b7c"
   },
-  "chat_id": "patient001",
+  "chat_id": "6454e1b39d39467f4d224a1b",
   "msg_senderId": "contact002",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
     "$date": "2022-04-17T09:56:04.000Z"
-  }
+  },
+  " msg_content": "red"
 },{
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b7d"
   },
-  "chat_id": "patient001",
+  "chat_id": "6454e1b39d39467f4d224a1b",
   "msg_senderId": "contact003",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
     "$date": "2022-04-17T10:56:04.000Z"
-  }
+  },
+  "msg_content": "blue"
 },{
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b7e"
   },
-  "chat_id": "patient001",
-  "msg_senderId": "staff004",
+  "chat_id": "6454e1b39d39467f4d224a1b",
+  "msg_senderId": "6454e24f9d39467f4d224a7a",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
     "$date": "2022-04-17T11:20:04.000Z"
-  }
+  },
+  "msg_content": "yellow"
 },{
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b7f"
   },
-  "chat_id": "patient001",
+  "chat_id": "6454e1b39d39467f4d224a1b",
   "msg_senderId": "contact003",
   "msg_fromNurse": false,
   "msg_isRead": true,
   "msg_timeSent": {
     "$date": "2022-04-17T11:23:04.000Z"
-  }
+  },
+  "msg_content": "green"
 },{
   "_id": {
     "$oid": "6454ed7e9d39467f4d224b80"
   },
-  "chat_id": "patient001",
-  "msg_senderId": "staff004",
+  "chat_id": "6454e1b39d39467f4d224a1b",
+  "msg_senderId": "6454e24f9d39467f4d224a7a",
   "msg_fromNurse": true,
   "msg_isRead": true,
   "msg_timeSent": {
     "$date": "2022-04-17T11:24:04.000Z"
-  }
-},{
-  "_id": {
-    "$oid": "6454ed7e9d39467f4d224b81"
   },
-  "chat_id": "patient001",
-  "msg_senderId": "contact002",
-  "msg_fromNurse": false,
-  "msg_isRead": true,
-  "msg_timeSent": {
-    "$date": "2022-04-17T21:56:04.000Z"
-  }
-},{
-  "_id": {
-    "$oid": "6454ed7e9d39467f4d224b82"
-  },
-  "chat_id": "patient001",
-  "msg_senderId": "staff006",
-  "msg_fromNurse": true,
-  "msg_isRead": true,
-  "msg_timeSent": {
-    "$date": "2022-04-17T22:58:04.000Z"
-  }
-},{
-  "_id": {
-    "$oid": "6454ed7e9d39467f4d224b83"
-  },
-  "chat_id": "patient001",
-  "msg_senderId": "contact003",
-  "msg_fromNurse": false,
-  "msg_isRead": true,
-  "msg_timeSent": {
-    "$date": "2022-04-17T23:02:00.000Z"
-  }
-},{
-  "_id": {
-    "$oid": "6454ed7e9d39467f4d224b84"
-  },
-  "chat_id": "patient001",
-  "msg_senderId": "staff006",
-  "msg_fromNurse": true,
-  "msg_isRead": false,
-  "msg_timeSent": {
-    "$date": "2022-04-18T09:04:00.000Z"
-  }
+  "msg_content": "black"
 }]
