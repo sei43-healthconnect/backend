@@ -4,19 +4,17 @@ const Patients = require("../models/Patients");
 // GET : retrieve all patients from the DB
 const getPatients = async (req, res) => {
   const allPatients = await Patients.find();
-
-  console.log(allPatients);
   res.json(allPatients);
 };
 
 // POST : retrieve one patient from the DB, based on ID
-const postPatientsById = async (req, res) => {
+const postPatientById = async (req, res) => {
   const patient = await Patients.findById(req.body.id);
   res.json(patient);
 };
 
 // POST : retrieve one patient from the DB, based on his NRIC
-const postPatientsByNric = async (req, res) => {
+const postPatientByNric = async (req, res) => {
   const patient = await Patients.findOne({
     patient_nric: req.body.patient_nric,
   });
@@ -50,25 +48,6 @@ const putPatients = async (req, res) => {
   await createdPatient.save();
 
   res.json({ status: "ok", msg: "created" });
-};
-
-// this section needs to be updated to seed our patients DB for example
-const seedData = async (req, res) => {
-  try {
-    await Patients.deleteMany();
-
-    await Patients.create([
-      { name: "Rose", colour: "Red" },
-      { name: "Lily", colour: "White" },
-      { name: "Orchid", colour: "Pink" },
-      { name: genRandomString(20), colour: genRandomString(5) },
-    ]);
-
-    res.json({ status: "ok", msg: "seeding successful" });
-  } catch (error) {
-    console.error(error.message);
-    res.status(400).json({ status: " error", msg: "seeding error" });
-  }
 };
 
 const deletePatients = async (req, res) => {
@@ -105,24 +84,11 @@ const patchPatients = async (req, res) => {
   res.json({ status: "ok", msg: "updated" });
 };
 
-const characters =
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcedfghijklmnopqrstuvwxyz1234567890";
-
-const genRandomString = (length) => {
-  let output = "";
-  for (let i = 0; i < length; i++) {
-    output += characters.charAt(Math.floor(Math.random() * characters.length));
-  }
-
-  return output;
-};
-
 module.exports = {
   getPatients,
-  postPatientsById,
-  postPatientsByNric,
+  postPatientById,
+  postPatientByNric,
   putPatients,
   deletePatients,
   patchPatients,
-  seedData,
 };

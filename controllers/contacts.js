@@ -8,8 +8,16 @@ const getContacts = async (req, res) => {
 };
 
 // POST : retrieve one contact from the DB, based on a criteria
-const postContacts = async (req, res) => {
+const postContactById = async (req, res) => {
   const contact = await Contacts.findById(req.body.id);
+  res.json(contact);
+};
+
+// POST : retrieve one contact from the DB, based on his phone number
+const postContactByPhoneNumber = async (req, res) => {
+  const contact = await Contacts.findOne({
+    contact_phoneNumber: req.body.contact_phoneNumber,
+  });
   res.json(contact);
 };
 
@@ -23,7 +31,7 @@ const putContacts = async (req, res) => {
   const createdContact = new Contacts({
     contact_firstName: req.body.contact_firstName,
     contact_lastName: req.body.contact_lastName,
-    contact_gender: req.body.gender,
+    contact_gender: req.body.contact_gender,
     contact_phoneNumber: req.body.contact_phoneNumber,
     contact_order: req.body.contact_order,
     contact_password: req.body.contact_password,
@@ -33,25 +41,6 @@ const putContacts = async (req, res) => {
   await createdContact.save();
 
   res.json({ status: "ok", msg: "created" });
-};
-
-// this section needs to be updated to seed our contacts DB for example
-const seedData = async (req, res) => {
-  try {
-    await Contacts.deleteMany();
-
-    await Contacts.create([
-      { name: "Rose", colour: "Red" },
-      { name: "Lily", colour: "White" },
-      { name: "Orchid", colour: "Pink" },
-      { name: genRandomString(20), colour: genRandomString(5) },
-    ]);
-
-    res.json({ status: "ok", msg: "seeding successful" });
-  } catch (error) {
-    console.error(error.message);
-    res.status(400).json({ status: " error", msg: "seeding error" });
-  }
 };
 
 const deleteContacts = async (req, res) => {
@@ -69,7 +58,7 @@ const patchContacts = async (req, res) => {
     {
       contact_id: req.body.contact_id,
       contact_firstName: req.body.contact_firstName,
-      contact_gender: req.body.gender,
+      contact_gender: req.body.contact_gender,
       contact_lastName: req.body.contact_lastName,
       contact_phoneNumber: req.body.contact_phoneNumber,
       contact_order: req.body.contact_order,
@@ -80,23 +69,11 @@ const patchContacts = async (req, res) => {
   res.json({ status: "ok", msg: "updated" });
 };
 
-const characters =
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcedfghijklmnopqrstuvwxyz1234567890";
-
-const genRandomString = (length) => {
-  let output = "";
-  for (let i = 0; i < length; i++) {
-    output += characters.charAt(Math.floor(Math.random() * characters.length));
-  }
-
-  return output;
-};
-
 module.exports = {
   getContacts,
-  postContacts,
+  postContactById,
+  postContactByPhoneNumber,
   putContacts,
   deleteContacts,
   patchContacts,
-  seedData,
 };
