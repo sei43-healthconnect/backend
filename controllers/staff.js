@@ -7,10 +7,18 @@ const getStaff = async (req, res) => {
   res.json(allStaff);
 };
 
-// POST : retrieve one staff from the DB, based on a criteria
-const postStaff = async (req, res) => {
+// POST : retrieve one staff from the DB, based id
+const postStaffById = async (req, res) => {
   const staff = await Staff.findById(req.body.id);
   res.json(staff);
+};
+
+// POST : retrieve one staff from the DB, based on his NRIC
+const postStaffByNric = async (req, res) => {
+  const patient = await Staff.findOne({
+    staff_nric: req.body.staff_nric,
+  });
+  res.json(patient);
 };
 
 // PUT : add a staff record to the DB
@@ -97,7 +105,8 @@ const genRandomString = (length) => {
 
 module.exports = {
   getStaff,
-  postStaff,
+  postStaffById,
+  postStaffByNric,
   putStaff,
   deleteStaff,
   patchStaff,

@@ -2,7 +2,8 @@ const express = require("express");
 const router = express.Router();
 const {
   getStaff,
-  postStaff,
+  postStaffById,
+  postStaffByNric,
   putStaff,
   deleteStaff,
   patchStaff,
@@ -12,7 +13,9 @@ const auth = require("../middleware/auth");
 const { validateInsertStaffData } = require("../validators/staff");
 
 router.get("/staff", getStaff);
-router.post("/staff", postStaff);
+router.post("/staff/id", postStaffById);
+router.post("/staff/nric", postStaffByNric);
+
 router.put(
   "/staff",
   validateInsertStaffData,

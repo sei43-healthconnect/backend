@@ -2,7 +2,8 @@ const express = require("express");
 const router = express.Router();
 const {
   getPatients,
-  postPatients,
+  postPatientsById,
+  postPatientsByNric,
   putPatients,
   deletePatients,
   patchPatients,
@@ -12,7 +13,9 @@ const { check } = require("express-validator");
 const auth = require("../middleware/auth");
 
 router.get("/patients", getPatients);
-router.post("/patients", postPatients);
+router.post("/patients/id", postPatientsById);
+router.post("/patients/nric", postPatientsByNric);
+
 router.put(
   "/patients",
   [

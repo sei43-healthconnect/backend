@@ -4,12 +4,22 @@ const Patients = require("../models/Patients");
 // GET : retrieve all patients from the DB
 const getPatients = async (req, res) => {
   const allPatients = await Patients.find();
+
+  console.log(allPatients);
   res.json(allPatients);
 };
 
-// POST : retrieve one patient from the DB, based on a criteria
-const postPatients = async (req, res) => {
+// POST : retrieve one patient from the DB, based on ID
+const postPatientsById = async (req, res) => {
   const patient = await Patients.findById(req.body.id);
+  res.json(patient);
+};
+
+// POST : retrieve one patient from the DB, based on his NRIC
+const postPatientsByNric = async (req, res) => {
+  const patient = await Patients.findOne({
+    patient_nric: req.body.patient_nric,
+  });
   res.json(patient);
 };
 
@@ -23,8 +33,8 @@ const putPatients = async (req, res) => {
   const createdPatient = new Patients({
     patient_firstName: req.body.patient_firstName,
     patient_lastName: req.body.patient_lastName,
-    patient_gender: req.body.gender,
-    patient_nric: req.body.nric,
+    patient_gender: req.body.patient_gender,
+    patient_nric: req.body.patient_nric,
     patient_phoneNumber: req.body.patient_phoneNumber,
     patient_dateOfBirth: req.body.patient_dateOfBirth,
     patient_dateAdmitted: req.body.patient_dateAdmitted,
@@ -77,8 +87,8 @@ const patchPatients = async (req, res) => {
       patient_id: req.body.patient_id,
       patient_firstName: req.body.patient_firstName,
       patient_lastName: req.body.patient_lastName,
-      patient_gender: req.body.gender,
-      patient_nric: req.body.nric,
+      patient_gender: req.body.patient_gender,
+      patient_nric: req.body.patient_nric,
       patient_phoneNumber: req.body.patient_phoneNumber,
       patient_dateOfBirth: req.body.patient_dateOfBirth,
       patient_dateAdmitted: req.body.patient_dateAdmitted,
@@ -109,7 +119,8 @@ const genRandomString = (length) => {
 
 module.exports = {
   getPatients,
-  postPatients,
+  postPatientsById,
+  postPatientsByNric,
   putPatients,
   deletePatients,
   patchPatients,

@@ -17,7 +17,7 @@ const PatientsSchema = new mongoose.Schema(
     patient_ward: { type: Number, require: true },
     patient_bed: { type: Number, require: true },
   },
-  { collection: "patients" }
+  { collection: "patients", useNewUrlParser: true, dbName: "healthconnect" }
 );
 
 module.exports = mongoose.model("Patients", PatientsSchema);
