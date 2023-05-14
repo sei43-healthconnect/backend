@@ -14,7 +14,6 @@ const auth = require("../middleware/auth");
 router.get("/contacts", getContacts);
 router.post("/contacts/id", postContactById);
 router.post("/contacts/phone", postContactByPhoneNumber);
-
 router.put(
   "/contacts",
   [

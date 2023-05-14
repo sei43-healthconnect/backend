@@ -34,25 +34,6 @@ const putChats = async (req, res) => {
   res.json({ status: "ok", msg: "created" });
 };
 
-// this section needs to be updated to seed our chats DB for example
-const seedData = async (req, res) => {
-  try {
-    await Chats.deleteMany();
-
-    await Chats.create([
-      { name: "Rose", colour: "Red" },
-      { name: "Lily", colour: "White" },
-      { name: "Orchid", colour: "Pink" },
-      { name: genRandomString(20), colour: genRandomString(5) },
-    ]);
-
-    res.json({ status: "ok", msg: "seeding successful" });
-  } catch (error) {
-    console.error(error.message);
-    res.status(400).json({ status: " error", msg: "seeding error" });
-  }
-};
-
 const deleteChats = async (req, res) => {
   //   await Chats.findByIdAndDelete(req.body.id);
 
@@ -96,5 +77,4 @@ module.exports = {
   putChats,
   deleteChats,
   patchChats,
-  seedData,
 };

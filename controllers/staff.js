@@ -45,23 +45,6 @@ const putStaff = async (req, res) => {
   res.json({ status: "ok", msg: "created" });
 };
 
-const seedData = async (req, res) => {
-  try {
-    await Patients.deleteMany();
-
-    await Patients.create([
-      { name: "Rose", colour: "Red" },
-      { name: "Lily", colour: "White" },
-      { name: "Orchid", colour: "Pink" },
-      { name: genRandomString(20), colour: genRandomString(5) },
-    ]);
-
-    res.json({ status: "ok", msg: "seeding successful" });
-  } catch (error) {
-    console.error(error.message);
-    res.status(400).json({ status: " error", msg: "seeding error" });
-  }
-};
 
 const deleteStaff = async (req, res) => {
   //   await Staff.findByIdAndDelete(req.body.id);
@@ -110,5 +93,4 @@ module.exports = {
   putStaff,
   deleteStaff,
   patchStaff,
-  seedData,
 };

@@ -6,7 +6,6 @@ const {
   putChats,
   deleteChats,
   patchChats,
-  seedData,
 } = require("../controllers/chats");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
@@ -40,6 +39,5 @@ router.put(
 );
 router.delete("/chats", deleteChats);
 router.patch("/chats/:id", patchChats);
-router.get("/seed", seedData);
 
 module.exports = router;
