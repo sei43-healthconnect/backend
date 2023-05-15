@@ -7,7 +7,7 @@ const getChats = async (req, res) => {
   res.json(allChats);
 };
 
-// POST : retrieve one contact from the DB, based on a criteria
+// POST : retrieve one chat from the DB, based on a criteria
 const postChats = async (req, res) => {
   const contact = await Chats.findById(req.body.id);
   res.json(contact);
