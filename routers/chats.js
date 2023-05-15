@@ -6,12 +6,14 @@ const {
   putChats,
   deleteChats,
   patchChats,
+  postChatByChatId,
 } = require("../controllers/chats");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
 
 router.get("/chats", getChats);
 router.post("/chats", postChats);
+router.post("/chats/id", postChatByChatId);
 
 router.put(
   "/chats",

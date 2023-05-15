@@ -7,6 +7,12 @@ const getChats = async (req, res) => {
   res.json(allChats);
 };
 
+// POST : retrieve a chat from the DB based on the chat_id
+const postChatByChatId = async (req, res) => {
+  const allChats = await Chats.find({ chat_id: "6454e1b39d39467f4d224a1a" });
+  res.json(allChats);
+};
+
 // POST : retrieve one chat from the DB, based on a criteria
 const postChats = async (req, res) => {
   const contact = await Chats.findById(req.body.id);
@@ -77,4 +83,5 @@ module.exports = {
   putChats,
   deleteChats,
   patchChats,
+  postChatByChatId,
 };
