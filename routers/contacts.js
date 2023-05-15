@@ -2,17 +2,19 @@ const express = require("express");
 const router = express.Router();
 const {
   getContacts,
-  postContacts,
+  postContactByPhoneNumber,
+  postContactById,
   putContacts,
   deleteContacts,
   patchContacts,
-  seedData,
 } = require("../controllers/contacts");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
 
 router.get("/contacts", getContacts);
-router.post("/contacts", postContacts);
+router.post("/contacts/id", postContactById);
+router.post("/contacts/phone", postContactByPhoneNumber);
+
 router.put(
   "/contacts",
   [
@@ -23,6 +25,5 @@ router.put(
 );
 router.delete("/contacts", deleteContacts);
 router.patch("/contacts/:id", patchContacts);
-router.get("/seed", seedData);
 
 module.exports = router;

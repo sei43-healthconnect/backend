@@ -2,17 +2,19 @@ const express = require("express");
 const router = express.Router();
 const {
   getPatients,
-  postPatients,
+  postPatientById,
+  postPatientByNric,
   putPatients,
   deletePatients,
   patchPatients,
-  seedData,
 } = require("../controllers/patients");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
 
 router.get("/patients", getPatients);
-router.post("/patients", postPatients);
+router.post("/patients/nric", postPatientByNric);
+router.post("/patients/id", postPatientById);
+
 router.put(
   "/patients",
   [
@@ -27,6 +29,5 @@ router.put(
 );
 router.delete("/patients", deletePatients);
 router.patch("/patients/:id", patchPatients);
-router.get("/seed", seedData);
 
 module.exports = router;
