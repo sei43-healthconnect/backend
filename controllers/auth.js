@@ -3,16 +3,16 @@ const bcrypt = require("bcrypt");
 
 const register = async (req, res) => {
   try {
-    const auth = await Staff.findOne({ staff_nric: req.body.staff_nric });
+    const auth = await Staff.findOne({ staff_nric: req.body.user });
     if (auth) {
       return res
         .status(400)
         .json({ status: "error", msg: "duplicate staff Ic" });
     }
 
-    const hash = await bcrypt.hash(req.body.staff_password, 12);
+    const hash = await bcrypt.hash(req.body.password, 12);
 
-    await Auth.create({
+    await Staff.create({
       staff_nric: req.body.staff_nric,
       hash,
     });
@@ -26,25 +26,37 @@ const register = async (req, res) => {
 
 const login = async (req, res) => {
   try {
-    const auth = await Auth.findOne({ staff_nric: req.body.staff_nric });
-    if (!auth) {
-      return res.status(400).json({ status: "error", msg: "not authorised" });
-    }
+    if (req.body.role == 'staff') {
+      const userDetails = await Staff.findOne({ staff_nric: req.body.user });
+      console.log(bcrypt.hash("password", 12))
+      if (!auth) {
+        return res.status(400).json({ status: "error", msg: "not authorised" });
+      }
+  
+      const result = await bcrypt.compare(req.body.password, userDetails.password);
+      if (!result) {
+        return res.status(401).json({ status: "error", message: "login fail" });
+      }
+      res.json(userDetails)
+    } else {
+      const userDetails = await Contacts.findOne({ contact_patientNric: req.body.user });
+      if (!auth) {
+        return res.status(400).json({ status: "error", msg: "not authorised" });
+      }
+  
+      const result = await bcrypt.compare(req.body.password, userDetails.password);
+      if (!result) {
+        return res.status(401).json({ status: "error", message: "login fail" });
+      }
+      res.json(userDetails)
+    } 
 
-    const result = await bcrypt.compare(req.body.staff_password, auth.hash);
-    if (!result) {
-      return res.status(401).json({ status: "error", message: "login fail" });
-    }
-
-    const payload = {
-      staff_nric: auth.staff_nric,
-    };
   } catch (error) {
     return res.status(400).json({ status: "error", msg: "login failed" });
   }
 };
 
 module.exports = {
-  register,
+  // register,
   login,
 };
