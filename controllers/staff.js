@@ -45,24 +45,6 @@ const putStaff = async (req, res) => {
   res.json({ status: "ok", msg: "created" });
 };
 
-const seedData = async (req, res) => {
-  try {
-    await Patients.deleteMany();
-
-    await Patients.create([
-      { name: "Rose", colour: "Red" },
-      { name: "Lily", colour: "White" },
-      { name: "Orchid", colour: "Pink" },
-      { name: genRandomString(20), colour: genRandomString(5) },
-    ]);
-
-    res.json({ status: "ok", msg: "seeding successful" });
-  } catch (error) {
-    console.error(error.message);
-    res.status(400).json({ status: " error", msg: "seeding error" });
-  }
-};
-
 const deleteStaff = async (req, res) => {
   //   await Staff.findByIdAndDelete(req.body.id);
 
@@ -72,23 +54,56 @@ const deleteStaff = async (req, res) => {
   res.json({ status: "ok", msg: "deleted" });
 };
 
-const patchStaff = async (req, res) => {
-  await Staff.updateOne(
-    { staff_nric: req.body.staff_nric },
-    {
-      staff_id: req.body.staff_id,
-      staff_hospitalId: req.body.staff_hospitalId,
-      staff_firstName: req.body.staff_firstName,
-      staff_lastName: req.body.staff_lastName,
-      staff_gender: req.body.staff_gender,
-      staff_nric: req.body.staff_nric,
-      staff_photo: req.body.staff_photo,
-      staff_ward: req.body.staff_ward,
-      staff_password: req.body.staff_password,
-    }
-  );
+// const patchStaff = async (req, res) => {
+//   await Staff.updateOne(
+//     { staff_nric: req.param.staff_nric },
+//     {
+//       staff_id: req.body.staff_id,
+//       staff_hospitalId: req.body.staff_hospitalId,
+//       staff_firstName: req.body.staff_firstName,
+//       staff_lastName: req.body.staff_lastName,
+//       staff_gender: req.body.staff_gender,
+//       staff_nric: req.body.staff_nric,
+//       staff_photo: req.body.staff_photo,
+//       staff_ward: req.body.staff_ward,
+//       staff_password: req.body.staff_password,
+//     }
+//   );
 
-  res.json({ status: "ok", msg: "updated" });
+//   res.json({ status: "ok", msg: "updated" });
+// };
+
+const patchStaff = async (req, res) => {
+  try {
+    const updatedStaff = {};
+
+    if ("staff_id" in req.body) updatedStaff.staff_id = req.body.staff_id;
+    if ("staff_hospitalId" in req.body)
+      updatedStaff.staff_hospitalId = req.body.staff_hospitalId;
+    if ("staff_firstName" in req.body)
+      updatedStaff.staff_firstName = req.body.staff_firstName;
+    if ("staff_lastName" in req.body)
+      updatedStaff.staff_lastName = req.body.staff_lastName;
+    if ("staff_gender" in req.body)
+      updatedStaff.staff_gender = req.body.staff_gender;
+    if ("staff_nric" in req.body) updatedStaff.staff_nric = req.body.staff_nric;
+    if ("staff_photo" in req.body)
+      updatedStaff.staff_photo = req.body.staff_photo;
+    if ("staff_ward" in req.body) updatedStaff.staff_ward = req.body.staff_ward;
+    if ("staff_password" in req.body)
+      updatedStaff.staff_password = req.body.staff_password;
+
+    await Staff.findByIdAndUpdate(req.params.id, updatedStaff);
+
+    //  or other method:
+    //  const respStaff = await Staff.findById(req.params.id);
+    //  await respStaff.updateOne(updatedStaff);
+
+    res.json({ status: "ok", msg: "staff updated" });
+  } catch (error) {
+    console.log(error.message);
+    res.json({ status: "error", msg: "error in updating staff" });
+  }
 };
 
 const characters =
@@ -110,5 +125,4 @@ module.exports = {
   putStaff,
   deleteStaff,
   patchStaff,
-  seedData,
 };

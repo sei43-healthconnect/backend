@@ -7,7 +7,13 @@ const getChats = async (req, res) => {
   res.json(allChats);
 };
 
-// POST : retrieve one contact from the DB, based on a criteria
+// POST : retrieve a chat from the DB based on the chat_id
+const postChatByChatId = async (req, res) => {
+  const allChats = await Chats.find({ chat_id: "6454e1b39d39467f4d224a1a" });
+  res.json(allChats);
+};
+
+// POST : retrieve one chat from the DB, based on a criteria
 const postChats = async (req, res) => {
   const contact = await Chats.findById(req.body.id);
   res.json(contact);
@@ -32,25 +38,6 @@ const putChats = async (req, res) => {
   await createdChat.save();
 
   res.json({ status: "ok", msg: "created" });
-};
-
-// this section needs to be updated to seed our chats DB for example
-const seedData = async (req, res) => {
-  try {
-    await Chats.deleteMany();
-
-    await Chats.create([
-      { name: "Rose", colour: "Red" },
-      { name: "Lily", colour: "White" },
-      { name: "Orchid", colour: "Pink" },
-      { name: genRandomString(20), colour: genRandomString(5) },
-    ]);
-
-    res.json({ status: "ok", msg: "seeding successful" });
-  } catch (error) {
-    console.error(error.message);
-    res.status(400).json({ status: " error", msg: "seeding error" });
-  }
 };
 
 const deleteChats = async (req, res) => {
@@ -96,5 +83,5 @@ module.exports = {
   putChats,
   deleteChats,
   patchChats,
-  seedData,
+  postChatByChatId,
 };
