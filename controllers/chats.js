@@ -51,14 +51,9 @@ const deleteChats = async (req, res) => {
 
 const patchChats = async (req, res) => {
   await Chats.updateOne(
-    { _id: req.body.id },
+    { _id: req.params.id },
     {
-      chat_id: req.body.chat_id,
-      msg_senderId: req.body.msg_senderId,
-      msg_fromNurse: req.body.msg_fromNurse,
       msg_isRead: req.body.msg_isRead,
-      msg_timeSent: req.body.msg_timeSent,
-      msg_content: req.body.msg_content,
     }
   );
 
