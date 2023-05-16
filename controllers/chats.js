@@ -9,7 +9,7 @@ const getChats = async (req, res) => {
 
 // POST : retrieve a chat from the DB based on the chat_id
 const postChatByChatId = async (req, res) => {
-  const allChats = await Chats.find({ chat_id: "6454e1b39d39467f4d224a1a" });
+  const allChats = await Chats.find({ chat_id: req.body.chat_id });
   res.json(allChats);
 };
 
