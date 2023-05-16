@@ -8,7 +8,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 33333333,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s0000001x",
     "contact_relationship": "Son"
   },
@@ -21,7 +21,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 22222222,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s0000001x",
     "contact_relationship": "Daughter"
   },
@@ -34,7 +34,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 22123307,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1778359x",
     "contact_relationship": "Son"
   },
@@ -47,7 +47,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 45573196,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1778359x",
     "contact_relationship": "Daughter"
   },
@@ -60,7 +60,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 49995993,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g8669131a",
     "contact_relationship": "Daughter"
   },
@@ -73,7 +73,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 20227797,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g8669131a",
     "contact_relationship": "Son"
   },
@@ -86,7 +86,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 12036332,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f4837086r",
     "contact_relationship": "Daughter"
   },
@@ -99,7 +99,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 14038515,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f4837086r",
     "contact_relationship": "Daughter"
   },
@@ -112,7 +112,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 15152093,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t8528602x",
     "contact_relationship": "Son"
   },
@@ -125,7 +125,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 58540593,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t8528602x",
     "contact_relationship": "Daughter"
   },
@@ -138,7 +138,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 68827082,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g5962825l",
     "contact_relationship": "Daughter"
   },
@@ -151,7 +151,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 42983789,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g5962825l",
     "contact_relationship": "Son"
   },
@@ -164,7 +164,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 71391670,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s2678071k",
     "contact_relationship": "Son"
   },
@@ -177,7 +177,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 38794351,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s2678071k",
     "contact_relationship": "Daughter"
   },
@@ -190,7 +190,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 72929233,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m9867718r",
     "contact_relationship": "Daughter"
   },
@@ -203,7 +203,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 74779415,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m9867718r",
     "contact_relationship": "Son"
   },
@@ -216,7 +216,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 60905292,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g3567318a",
     "contact_relationship": "Son"
   },
@@ -229,7 +229,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 24930541,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g3567318a",
     "contact_relationship": "Daughter"
   },
@@ -242,7 +242,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 97719412,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s7645232a",
     "contact_relationship": "Daughter"
   },
@@ -255,7 +255,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 63757831,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s7645232a",
     "contact_relationship": "Son"
   },
@@ -268,7 +268,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 80778677,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1135625i",
     "contact_relationship": "Son"
   },
@@ -281,7 +281,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 14066403,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1135625i",
     "contact_relationship": "Daughter"
   },
@@ -294,7 +294,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 73721255,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8076977z",
     "contact_relationship": "Daughter"
   },
@@ -307,7 +307,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 98718767,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8076977z",
     "contact_relationship": "Son"
   },
@@ -320,7 +320,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 91912167,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g4798901f",
     "contact_relationship": "Daughter"
   },
@@ -333,7 +333,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 92952279,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g4798901f",
     "contact_relationship": "Daughter"
   },
@@ -346,7 +346,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 96551950,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8008473x",
     "contact_relationship": "Daughter"
   },
@@ -359,7 +359,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 57862371,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8008473x",
     "contact_relationship": "Daughter"
   },
@@ -372,7 +372,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 49188586,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t6829911t",
     "contact_relationship": "Son"
   },
@@ -385,7 +385,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 93918518,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t6829911t",
     "contact_relationship": "Daughter"
   },
@@ -398,7 +398,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 71435496,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g6242751s",
     "contact_relationship": "Daughter"
   },
@@ -411,7 +411,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 99541613,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g6242751s",
     "contact_relationship": "Son"
   },
@@ -424,7 +424,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 47189996,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g6635584j",
     "contact_relationship": "Daughter"
   },
@@ -437,7 +437,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 93375035,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g6635584j",
     "contact_relationship": "Daughter"
   },
@@ -450,7 +450,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 46475621,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1577547k",
     "contact_relationship": "Son"
   },
@@ -463,7 +463,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 73995160,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1577547k",
     "contact_relationship": "Son"
   },
@@ -476,7 +476,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 54748274,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t3132589i",
     "contact_relationship": "Son"
   },
@@ -489,7 +489,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 12215655,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t3132589i",
     "contact_relationship": "Son"
   },
@@ -502,7 +502,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 96898481,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f3101636n",
     "contact_relationship": "Son"
   },
@@ -515,7 +515,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 38071651,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f3101636n",
     "contact_relationship": "Son"
   },
@@ -528,7 +528,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 15713084,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f5495329x",
     "contact_relationship": "Daughter"
   },
@@ -541,7 +541,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 67770514,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f5495329x",
     "contact_relationship": "Daughter"
   },
@@ -554,7 +554,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 53827695,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1444334e",
     "contact_relationship": "Son"
   },
@@ -567,7 +567,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 83539505,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1444334e",
     "contact_relationship": "Daughter"
   },
@@ -580,7 +580,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 17033619,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1325314v",
     "contact_relationship": "Daughter"
   },
@@ -593,7 +593,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 13368273,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1325314v",
     "contact_relationship": "Son"
   },
@@ -606,7 +606,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 29353462,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8215251m",
     "contact_relationship": "Son"
   },
@@ -619,7 +619,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 26195470,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8215251m",
     "contact_relationship": "Daughter"
   },
@@ -632,7 +632,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 95075944,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f5185231t",
     "contact_relationship": "Son"
   },
@@ -645,7 +645,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 81010339,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f5185231t",
     "contact_relationship": "Son"
   },
@@ -658,7 +658,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 61890307,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m3365340y",
     "contact_relationship": "Son"
   },
@@ -671,7 +671,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 27065877,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m3365340y",
     "contact_relationship": "Son"
   },
@@ -684,7 +684,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 36309217,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g3912350m",
     "contact_relationship": "Daughter"
   },
@@ -697,7 +697,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 39626568,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g3912350m",
     "contact_relationship": "Son"
   },
@@ -710,7 +710,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 53651042,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g1981323i",
     "contact_relationship": "Daughter"
   },
@@ -723,7 +723,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 16542639,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g1981323i",
     "contact_relationship": "Daughter"
   },
@@ -736,7 +736,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 48957162,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f2190527n",
     "contact_relationship": "Daughter"
   },
@@ -749,7 +749,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 65818101,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f2190527n",
     "contact_relationship": "Daughter"
   },
@@ -762,7 +762,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 22616654,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8371776q",
     "contact_relationship": "Daughter"
   },
@@ -775,7 +775,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 61876723,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8371776q",
     "contact_relationship": "Daughter"
   },
@@ -788,7 +788,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 14944417,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f4816140g",
     "contact_relationship": "Son"
   },
@@ -801,7 +801,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 37541841,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f4816140g",
     "contact_relationship": "Daughter"
   },
@@ -814,7 +814,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 33580310,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8611124t",
     "contact_relationship": "Daughter"
   },
@@ -827,7 +827,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 68685246,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s8611124t",
     "contact_relationship": "Son"
   },
@@ -840,7 +840,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 91758077,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s3033631p",
     "contact_relationship": "Daughter"
   },
@@ -853,7 +853,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 15565744,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s3033631p",
     "contact_relationship": "Daughter"
   },
@@ -866,7 +866,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 46666063,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s1044517s",
     "contact_relationship": "Son"
   },
@@ -879,7 +879,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 84491144,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s1044517s",
     "contact_relationship": "Daughter"
   },
@@ -892,7 +892,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 63952483,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g7859612w",
     "contact_relationship": "Daughter"
   },
@@ -905,7 +905,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 62567740,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g7859612w",
     "contact_relationship": "Son"
   },
@@ -918,7 +918,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 24862738,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m2013046a",
     "contact_relationship": "Daughter"
   },
@@ -931,7 +931,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 99069190,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m2013046a",
     "contact_relationship": "Daughter"
   },
@@ -944,7 +944,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 17982151,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1485310x",
     "contact_relationship": "Daughter"
   },
@@ -957,7 +957,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 18452414,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t1485310x",
     "contact_relationship": "Daughter"
   },
@@ -970,7 +970,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 17188121,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1154063b",
     "contact_relationship": "Son"
   },
@@ -983,7 +983,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 74315002,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1154063b",
     "contact_relationship": "Daughter"
   },
@@ -996,7 +996,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 90479291,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8761848j",
     "contact_relationship": "Daughter"
   },
@@ -1009,7 +1009,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 20475554,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8761848j",
     "contact_relationship": "Son"
   },
@@ -1022,7 +1022,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 63777527,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m6870355w",
     "contact_relationship": "Daughter"
   },
@@ -1035,7 +1035,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 38028798,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m6870355w",
     "contact_relationship": "Daughter"
   },
@@ -1048,7 +1048,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 98777921,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t4560406d",
     "contact_relationship": "Daughter"
   },
@@ -1061,7 +1061,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 97763860,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t4560406d",
     "contact_relationship": "Daughter"
   },
@@ -1074,7 +1074,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 80083643,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1937115o",
     "contact_relationship": "Son"
   },
@@ -1087,7 +1087,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 40243961,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f1937115o",
     "contact_relationship": "Daughter"
   },
@@ -1100,7 +1100,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 21278060,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s5314299q",
     "contact_relationship": "Son"
   },
@@ -1113,7 +1113,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 28385617,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s5314299q",
     "contact_relationship": "Son"
   },
@@ -1126,7 +1126,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 42749586,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f2871591q",
     "contact_relationship": "Daughter"
   },
@@ -1139,7 +1139,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 30991759,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f2871591q",
     "contact_relationship": "Son"
   },
@@ -1152,7 +1152,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 84204266,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m5382861p",
     "contact_relationship": "Daughter"
   },
@@ -1165,7 +1165,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 28292892,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m5382861p",
     "contact_relationship": "Daughter"
   },
@@ -1178,7 +1178,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 98410651,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s5963978d",
     "contact_relationship": "Daughter"
   },
@@ -1191,7 +1191,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 97150708,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s5963978d",
     "contact_relationship": "Daughter"
   },
@@ -1204,7 +1204,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 28895970,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f3169219c",
     "contact_relationship": "Son"
   },
@@ -1217,7 +1217,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 68304477,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f3169219c",
     "contact_relationship": "Daughter"
   },
@@ -1230,7 +1230,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 11958955,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m2764127a",
     "contact_relationship": "Daughter"
   },
@@ -1243,7 +1243,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 35581973,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m2764127a",
     "contact_relationship": "Son"
   },
@@ -1256,7 +1256,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 69025932,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f3187251h",
     "contact_relationship": "Daughter"
   },
@@ -1269,7 +1269,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 56047266,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f3187251h",
     "contact_relationship": "Daughter"
   },
@@ -1282,7 +1282,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 55721087,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m9571106z",
     "contact_relationship": "Daughter"
   },
@@ -1295,7 +1295,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 44253084,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m9571106z",
     "contact_relationship": "Daughter"
   },
@@ -1308,7 +1308,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 97455312,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s1854490q",
     "contact_relationship": "Son"
   },
@@ -1321,7 +1321,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 24117237,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s1854490q",
     "contact_relationship": "Daughter"
   },
@@ -1334,7 +1334,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 19786386,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8361960e",
     "contact_relationship": "Daughter"
   },
@@ -1347,7 +1347,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 10082674,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8361960e",
     "contact_relationship": "Son"
   },
@@ -1360,7 +1360,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 50385672,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m7187436i",
     "contact_relationship": "Daughter"
   },
@@ -1373,7 +1373,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 50343667,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m7187436i",
     "contact_relationship": "Daughter"
   },
@@ -1386,7 +1386,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 53152208,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t2822736n",
     "contact_relationship": "Son"
   },
@@ -1399,7 +1399,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 90082065,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t2822736n",
     "contact_relationship": "Daughter"
   },
@@ -1412,7 +1412,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 70207836,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g4394851h",
     "contact_relationship": "Son"
   },
@@ -1425,7 +1425,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 65111062,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g4394851h",
     "contact_relationship": "Son"
   },
@@ -1438,7 +1438,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 71277596,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t6093080v",
     "contact_relationship": "Daughter"
   },
@@ -1451,7 +1451,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 20414879,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t6093080v",
     "contact_relationship": "Son"
   },
@@ -1464,7 +1464,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 36505739,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g2919498p",
     "contact_relationship": "Daughter"
   },
@@ -1477,7 +1477,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 79990369,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "g2919498p",
     "contact_relationship": "Daughter"
   },
@@ -1490,7 +1490,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 27316330,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s5860007k",
     "contact_relationship": "Son"
   },
@@ -1503,7 +1503,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 26415706,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "s5860007k",
     "contact_relationship": "Daughter"
   },
@@ -1516,7 +1516,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 66150877,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8038853x",
     "contact_relationship": "Daughter"
   },
@@ -1529,7 +1529,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 34664063,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "f8038853x",
     "contact_relationship": "Son"
   },
@@ -1542,7 +1542,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 97492473,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t8964576k",
     "contact_relationship": "Daughter"
   },
@@ -1555,7 +1555,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 40331968,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "t8964576k",
     "contact_relationship": "Daughter"
   },
@@ -1568,7 +1568,7 @@
     "contact_gender": "Male",
     "contact_phoneNumber": 12147992,
     "contact_order": 1,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m9960274g",
     "contact_relationship": "Son"
   },
@@ -1581,7 +1581,7 @@
     "contact_gender": "Female",
     "contact_phoneNumber": 32324243,
     "contact_order": 2,
-    "contact_password": "password",
+    "contact_password": "$2b$12$PbU3xc8u5jwxvRWvyJgmgO3K2.C8mxUis8boEHV/baIl8X4TGxUoe",
     "contact_patientNric": "m9960274g",
     "contact_relationship": "Daughter"
   }
