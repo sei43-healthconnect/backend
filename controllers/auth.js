@@ -1,11 +1,9 @@
-const Auth = require("../models/Auth");
+const Staff = require("../models/Staff");
 const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-const { v4: uuidv4 } = require("uuid");
 
 const register = async (req, res) => {
   try {
-    const auth = await Auth.findOne({ staff_nric: req.body.staff_nric });
+    const auth = await Staff.findOne({ staff_nric: req.body.staff_nric });
     if (auth) {
       return res
         .status(400)
