@@ -21,6 +21,14 @@ const postPatientByNric = async (req, res) => {
   res.json(patient);
 };
 
+// POST : retrieve patients based on the ward number
+const postPatientsByWard = async (req, res) => {
+  const allPatientsInWard = await Patients.find({
+    patient_ward: req.body.patient_ward,
+  });
+  res.json(allPatientsInWard);
+};
+
 // PUT : add a patient record to the DB
 const putPatients = async (req, res) => {
   const errors = validationResult(req);
@@ -91,4 +99,5 @@ module.exports = {
   putPatients,
   deletePatients,
   patchPatients,
+  postPatientsByWard
 };
