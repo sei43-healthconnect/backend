@@ -5,17 +5,17 @@ const { v4: uuidv4 } = require("uuid");
 
 const register = async (req, res) => {
   try {
-    const auth = await Auth.findOne({ username: req.body.username });
+    const auth = await Auth.findOne({ staff_nric: req.body.staff_nric });
     if (auth) {
       return res
         .status(400)
-        .json({ status: "error", msg: "duplicate username" });
+        .json({ status: "error", msg: "duplicate staff Ic" });
     }
 
-    const hash = await bcrypt.hash(req.body.password, 12);
+    const hash = await bcrypt.hash(req.body.staff_password, 12);
 
     await Auth.create({
-      username: req.body.username,
+      staff_nric: req.body.staff_nric,
       hash,
     });
 
@@ -28,56 +28,25 @@ const register = async (req, res) => {
 
 const login = async (req, res) => {
   try {
-    const auth = await Auth.findOne({ username: req.body.username });
+    const auth = await Auth.findOne({ staff_nric: req.body.staff_nric });
     if (!auth) {
       return res.status(400).json({ status: "error", msg: "not authorised" });
     }
 
-    const result = await bcrypt.compare(req.body.password, auth.hash);
+    const result = await bcrypt.compare(req.body.staff_password, auth.hash);
     if (!result) {
       return res.status(401).json({ status: "error", message: "login fail" });
     }
 
     const payload = {
-      username: auth.username,
+      staff_nric: auth.staff_nric,
     };
-
-    const access = jwt.sign(payload, process.env.ACCESS_SECRET, {
-      expiresIn: "20m",
-      jwtid: uuidv4(),
-    });
-
-    const refresh = jwt.sign(payload, process.env.REFRESH_SECRET, {
-      expiresIn: "30D",
-      jwtid: uuidv4(),
-    });
-
-    res.json({ access, refresh });
   } catch (error) {
     return res.status(400).json({ status: "error", msg: "login failed" });
-  }
-};
-
-const refresh = async (req, res) => {
-  try {
-    const decoded = jwt.verify(req.body.refresh, process.env.REFRESH_SECRET);
-
-    const payload = { username: decoded.username };
-
-    const access = jwt.sign(payload, process.env.ACCESS_SECRET, {
-      expiresIn: "20m",
-      jwtid: uuidv4(),
-    });
-
-    res.json({ access });
-  } catch (error) {
-    console.log(error.message);
-    res.status(400).json({ status: "error", msg: "unable to refresh token" });
   }
 };
 
 module.exports = {
   register,
   login,
-  refresh,
 };
