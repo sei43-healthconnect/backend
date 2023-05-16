@@ -25,7 +25,7 @@ const postPatientByNric = async (req, res) => {
 const postPatientsByWard = async (req, res) => {
   const allPatientsInWard = await Patients.find({
     patient_ward: req.body.patient_ward,
-  });
+  }).sort({ patient_bed: 1 }); // add .sort() to sort the array by "patient_bed" in ascending order
   res.json(allPatientsInWard);
 };
 
@@ -99,5 +99,5 @@ module.exports = {
   putPatients,
   deletePatients,
   patchPatients,
-  postPatientsByWard
+  postPatientsByWard,
 };
