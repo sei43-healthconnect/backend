@@ -93,6 +93,8 @@ const patchStaff = async (req, res) => {
 
     await Staff.findByIdAndUpdate(req.params.id, updatedStaff);
 
+    console.log(req.params.id);
+    console.log(updatedStaff);
     //  or other method:
     //  const respStaff = await Staff.findById(req.params.id);
     //  await respStaff.updateOne(updatedStaff);
