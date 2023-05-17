@@ -9,6 +9,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a74"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -26,6 +27,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a74"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -43,6 +45,7 @@
     "msg_senderId": {
       "$oid": "645675b9a6dd86f41a94b159"
     },
+    "role": "Contacts",
     "msg_fromNurse": false,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -60,6 +63,7 @@
     "msg_senderId": {
       "$oid": "645675b9a6dd86f41a94b159"
     },
+    "role": "Contacts",
     "msg_fromNurse": false,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -77,6 +81,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a77"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -94,6 +99,7 @@
     "msg_senderId": {
       "$oid": "645675b9a6dd86f41a94b159"
     },
+    "role": "Contacts",
     "msg_fromNurse": false,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -111,6 +117,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a77"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -128,6 +135,7 @@
     "msg_senderId": {
       "$oid": "645675b9a6dd86f41a94b159"
     },
+    "role": "Contacts",
     "msg_fromNurse": false,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -145,6 +153,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a77"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -162,6 +171,7 @@
     "msg_senderId": {
       "$oid": "645675b9a6dd86f41a94b159"
     },
+    "role": "Contacts",
     "msg_fromNurse": false,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -179,6 +189,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a77"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -196,6 +207,7 @@
     "msg_senderId": {
       "$oid": "645675b9a6dd86f41a94b159"
     },
+    "role": "Contacts",
     "msg_fromNurse": false,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -213,6 +225,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a7a"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -230,6 +243,7 @@
     "msg_senderId": {
       "$oid": "645675b9a6dd86f41a94b15a"
     },
+    "role": "Contacts",
     "msg_fromNurse": false,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -247,6 +261,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a7a"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": false,
     "msg_timeSent": {
@@ -264,6 +279,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a7a"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
@@ -281,6 +297,7 @@
     "msg_senderId": {
       "$oid": "6454e24f9d39467f4d224a7a"
     },
+    "role": "Staff",
     "msg_fromNurse": true,
     "msg_isRead": true,
     "msg_timeSent": {
