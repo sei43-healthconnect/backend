@@ -21,6 +21,7 @@ const postChats = async (req, res) => {
 
 // PUT : add a contact record to the DB
 const putChats = async (req, res) => {
+  
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() });
@@ -29,6 +30,7 @@ const putChats = async (req, res) => {
   const createdChat = new Chats({
     chat_id: req.body.chat_id,
     msg_senderId: req.body.msg_senderId,
+    role: req.body.role,
     msg_fromNurse: req.body.msg_fromNurse,
     msg_isRead: req.body.msg_isRead,
     msg_timeSent: req.body.msg_timeSent,
