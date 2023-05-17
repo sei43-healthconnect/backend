@@ -7,16 +7,16 @@ const getChats = async (req, res) => {
   res.json(allChats);
 };
 
-// POST : retrieve a chat from the DB based on the chat_id
+// POST : retrieve a chat history from the DB based on the chat_id (patient ID)
 const postChatByChatId = async (req, res) => {
   const allChats = await Chats.find({ chat_id: req.body.chat_id });
   res.json(allChats);
 };
 
-// POST : retrieve one chat from the DB, based on a criteria
+// POST : retrieve one chat message from the DB, based on a criteria
 const postChats = async (req, res) => {
-  const contact = await Chats.findById(req.body.id);
-  res.json(contact);
+  const message = await Chats.findById(req.body.id);
+  res.json(message);
 };
 
 // PUT : add a contact record to the DB
