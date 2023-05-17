@@ -16,7 +16,7 @@ const postStaffById = async (req, res) => {
 // POST : retrieve one staff from the DB, based on his NRIC
 const postStaffByNric = async (req, res) => {
   const staff = await Staff.findOne({
-    staff_nric: req.body.staff_nric,
+    staff_nric: req.body.user,
   });
   res.json(staff);
 };

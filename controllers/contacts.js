@@ -21,6 +21,14 @@ const postContactByPhoneNumber = async (req, res) => {
   res.json(contact);
 };
 
+// POST : retrieve one contact from the DB, based on the patient NRIC
+const postContactByPatientNric = async (req, res) => {
+  const contact = await Contacts.findOne({
+    contact_patientNric: req.body.contact_patientNric,
+  });
+  res.json(contact);
+};
+
 // PUT : add a contact record to the DB
 const putContacts = async (req, res) => {
   const errors = validationResult(req);
@@ -72,6 +80,7 @@ const patchContacts = async (req, res) => {
 module.exports = {
   getContacts,
   postContactById,
+  postContactByPatientNric,
   postContactByPhoneNumber,
   putContacts,
   deleteContacts,

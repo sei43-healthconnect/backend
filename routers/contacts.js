@@ -3,6 +3,7 @@ const router = express.Router();
 const {
   getContacts,
   postContactByPhoneNumber,
+  postContactByPatientNric,
   postContactById,
   putContacts,
   deleteContacts,
@@ -14,6 +15,8 @@ const auth = require("../middleware/auth");
 router.get("/contacts", getContacts);
 router.post("/contacts/id", postContactById);
 router.post("/contacts/phone", postContactByPhoneNumber);
+router.post("/contacts/nric", postContactByPatientNric);
+
 router.put(
   "/contacts",
   [
