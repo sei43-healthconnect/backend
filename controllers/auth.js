@@ -21,7 +21,6 @@ const register = async (req, res) => {
 const login = async (req, res) => {
   try {
     if (req.body.role == 'staff') {
-      console.log('a')
       const userDetails = await Staff.findOne({ staff_nric: req.body.user });
       if (!userDetails) {
         return res.status(400).json({ status: "error", msg: "not authorised" });
