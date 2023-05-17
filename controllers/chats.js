@@ -9,7 +9,9 @@ const getChats = async (req, res) => {
 
 // POST : retrieve a chat history from the DB based on the chat_id (patient ID)
 const postChatByChatId = async (req, res) => {
-  const allChats = await Chats.find({ chat_id: req.body.chat_id });
+  const allChats = await Chats.find({ chat_id: req.body.chat_id }).populate('msg_senderId');
+
+  
   res.json(allChats);
 };
 

@@ -30,8 +30,8 @@ const putStaff = async (req, res) => {
 
   const createdStaff = new Staff({
     staff_id: req.body.staff_id,
-    staff_firstName: req.body.staff_firstName,
-    staff_lastName: req.body.staff_lastName,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
     staff_hospitalId: req.body.staff_hospitalId,
     staff_gender: req.body.staff_gender,
     staff_nric: req.body.staff_nric,
@@ -60,8 +60,8 @@ const deleteStaff = async (req, res) => {
 //     {
 //       staff_id: req.body.staff_id,
 //       staff_hospitalId: req.body.staff_hospitalId,
-//       staff_firstName: req.body.staff_firstName,
-//       staff_lastName: req.body.staff_lastName,
+//       firstName: req.body.firstName,
+//       lastName: req.body.lastName,
 //       staff_gender: req.body.staff_gender,
 //       staff_nric: req.body.staff_nric,
 //       staff_photo: req.body.staff_photo,
@@ -80,10 +80,8 @@ const patchStaff = async (req, res) => {
     if ("staff_id" in req.body) updatedStaff.staff_id = req.body.staff_id;
     if ("staff_hospitalId" in req.body)
       updatedStaff.staff_hospitalId = req.body.staff_hospitalId;
-    if ("staff_firstName" in req.body)
-      updatedStaff.staff_firstName = req.body.staff_firstName;
-    if ("staff_lastName" in req.body)
-      updatedStaff.staff_lastName = req.body.staff_lastName;
+    if ("firstName" in req.body) updatedStaff.firstName = req.body.firstName;
+    if ("lastName" in req.body) updatedStaff.lastName = req.body.lastName;
     if ("staff_gender" in req.body)
       updatedStaff.staff_gender = req.body.staff_gender;
     if ("staff_nric" in req.body) updatedStaff.staff_nric = req.body.staff_nric;

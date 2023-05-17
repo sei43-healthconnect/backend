@@ -17,8 +17,8 @@ router.post("/contacts/phone", postContactByPhoneNumber);
 router.put(
   "/contacts",
   [
-    check("contact_firstName", "First name is required").not().isEmpty(),
-    check("contact_lastName", "Last Name is required").not().isEmpty(),
+    check("firstName", "First name is required").not().isEmpty(),
+    check("lastName", "Last Name is required").not().isEmpty(),
   ],
   putContacts
 );

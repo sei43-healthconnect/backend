@@ -29,8 +29,8 @@ const putContacts = async (req, res) => {
   }
 
   const createdContact = new Contacts({
-    contact_firstName: req.body.contact_firstName,
-    contact_lastName: req.body.contact_lastName,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
     contact_gender: req.body.contact_gender,
     contact_phoneNumber: req.body.contact_phoneNumber,
     contact_order: req.body.contact_order,
@@ -57,9 +57,9 @@ const patchContacts = async (req, res) => {
     { _id: req.body.id },
     {
       contact_id: req.body.contact_id,
-      contact_firstName: req.body.contact_firstName,
+      firstName: req.body.firstName,
       contact_gender: req.body.contact_gender,
-      contact_lastName: req.body.contact_lastName,
+      lastName: req.body.lastName,
       contact_phoneNumber: req.body.contact_phoneNumber,
       contact_order: req.body.contact_order,
       patient_id: req.body.patient_id,
