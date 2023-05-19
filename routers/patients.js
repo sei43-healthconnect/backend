@@ -11,25 +11,15 @@ const {
 } = require("../controllers/patients");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
+const { validateInsertPatientData } = require("../validators/patients");
 
 router.get("/patients", getPatients);
 router.post("/patients/nric", postPatientByNric);
 router.post("/patients/id", postPatientById);
 router.post("/patients/ward", postPatientsByWard);
 
-router.put(
-  "/patients",
-  [
-    check("patient_firstName", "First name is required").not().isEmpty(),
-    check("patient_lastName", "Last Name is required").not().isEmpty(),
-    check("patient_nric", "NRIC must be exactly 9 characters long").isLength({
-      min: 9,
-      max: 9,
-    }),
-  ],
-  putPatients
-);
+router.put("/patients", validateInsertPatientData, putPatients);
 router.delete("/patients", deletePatients);
-router.patch("/patients/:id", patchPatients);
+router.patch("/patients/:id", validateInsertPatientData, patchPatients);
 
 module.exports = router;

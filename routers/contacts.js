@@ -11,20 +11,14 @@ const {
 } = require("../controllers/contacts");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
+const { validateInsertContactData } = require("../validators/contacts");
 
 router.get("/contacts", getContacts);
 router.post("/contacts/id", postContactById);
 router.post("/contacts/phone", postContactByPhoneNumber);
 router.post("/contacts/nric", postContactByPatientNric);
 
-router.put(
-  "/contacts",
-  [
-    check("firstName", "First name is required").not().isEmpty(),
-    check("lastName", "Last Name is required").not().isEmpty(),
-  ],
-  putContacts
-);
+router.put("/contacts", validateInsertContactData, putContacts);
 router.delete("/contacts", deleteContacts);
 router.patch("/contacts/:id", patchContacts);
 

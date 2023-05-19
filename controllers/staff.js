@@ -54,25 +54,6 @@ const deleteStaff = async (req, res) => {
   res.json({ status: "ok", msg: "deleted" });
 };
 
-// const patchStaff = async (req, res) => {
-//   await Staff.updateOne(
-//     { staff_nric: req.param.staff_nric },
-//     {
-//       staff_id: req.body.staff_id,
-//       staff_hospitalId: req.body.staff_hospitalId,
-//       firstName: req.body.firstName,
-//       lastName: req.body.lastName,
-//       staff_gender: req.body.staff_gender,
-//       staff_nric: req.body.staff_nric,
-//       staff_photo: req.body.staff_photo,
-//       staff_ward: req.body.staff_ward,
-//       staff_password: req.body.staff_password,
-//     }
-//   );
-
-//   res.json({ status: "ok", msg: "updated" });
-// };
-
 const patchStaff = async (req, res) => {
   try {
     const updatedStaff = {};

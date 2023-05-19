@@ -9,9 +9,10 @@ const getChats = async (req, res) => {
 
 // POST : retrieve a chat history from the DB based on the chat_id (patient ID)
 const postChatByChatId = async (req, res) => {
-  const allChats = await Chats.find({ chat_id: req.body.chat_id }).populate('msg_senderId');
+  const allChats = await Chats.find({ chat_id: req.body.chat_id }).populate(
+    "msg_senderId"
+  );
 
-  
   res.json(allChats);
 };
 
@@ -23,7 +24,6 @@ const postChats = async (req, res) => {
 
 // PUT : add a contact record to the DB
 const putChats = async (req, res) => {
-  
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() });

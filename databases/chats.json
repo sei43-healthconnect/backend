@@ -245,7 +245,7 @@
     },
     "role": "Contacts",
     "msg_fromNurse": false,
-    "msg_isRead": true,
+    " sg_isRead": true,
     "msg_timeSent": {
       "$date": "2023-04-17T23:22:00.000Z"
     },
