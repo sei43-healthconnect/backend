@@ -7,10 +7,19 @@ const getChats = async (req, res) => {
   res.json(allChats);
 };
 
-// POST : retrieve one contact from the DB, based on a criteria
+// POST : retrieve a chat history from the DB based on the chat_id (patient ID)
+const postChatByChatId = async (req, res) => {
+  const allChats = await Chats.find({ chat_id: req.body.chat_id }).populate(
+    "msg_senderId"
+  );
+
+  res.json(allChats);
+};
+
+// POST : retrieve one chat message from the DB, based on a criteria
 const postChats = async (req, res) => {
-  const contact = await Chats.findById(req.body.id);
-  res.json(contact);
+  const message = await Chats.findById(req.body.id);
+  res.json(message);
 };
 
 // PUT : add a contact record to the DB
@@ -23,6 +32,7 @@ const putChats = async (req, res) => {
   const createdChat = new Chats({
     chat_id: req.body.chat_id,
     msg_senderId: req.body.msg_senderId,
+    role: req.body.role,
     msg_fromNurse: req.body.msg_fromNurse,
     msg_isRead: req.body.msg_isRead,
     msg_timeSent: req.body.msg_timeSent,
@@ -32,25 +42,6 @@ const putChats = async (req, res) => {
   await createdChat.save();
 
   res.json({ status: "ok", msg: "created" });
-};
-
-// this section needs to be updated to seed our chats DB for example
-const seedData = async (req, res) => {
-  try {
-    await Chats.deleteMany();
-
-    await Chats.create([
-      { name: "Rose", colour: "Red" },
-      { name: "Lily", colour: "White" },
-      { name: "Orchid", colour: "Pink" },
-      { name: genRandomString(20), colour: genRandomString(5) },
-    ]);
-
-    res.json({ status: "ok", msg: "seeding successful" });
-  } catch (error) {
-    console.error(error.message);
-    res.status(400).json({ status: " error", msg: "seeding error" });
-  }
 };
 
 const deleteChats = async (req, res) => {
@@ -64,14 +55,9 @@ const deleteChats = async (req, res) => {
 
 const patchChats = async (req, res) => {
   await Chats.updateOne(
-    { _id: req.body.id },
+    { _id: req.params.id },
     {
-      chat_id: req.body.chat_id,
-      msg_senderId: req.body.msg_senderId,
-      msg_fromNurse: req.body.msg_fromNurse,
       msg_isRead: req.body.msg_isRead,
-      msg_timeSent: req.body.msg_timeSent,
-      msg_content: req.body.msg_content,
     }
   );
 
@@ -96,5 +82,5 @@ module.exports = {
   putChats,
   deleteChats,
   patchChats,
-  seedData,
+  postChatByChatId,
 };

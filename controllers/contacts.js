@@ -7,12 +7,25 @@ const getContacts = async (req, res) => {
   res.json(allContacts);
 };
 
+// POST : retrieve one contact from the DB, based on a criteria
+const postContactById = async (req, res) => {
+  const contact = await Contacts.findById(req.body.id);
+  res.json(contact);
+};
+
 // POST : retrieve one contact from the DB, based on his phone number
-const postContactByNric = async (req, res) => {
+const postContactByPhoneNumber = async (req, res) => {
   const contact = await Contacts.findOne({
     contact_phoneNumber: req.body.contact_phoneNumber,
   });
+  res.json(contact);
+};
 
+// POST : retrieve one contact from the DB, based on the patient NRIC
+const postContactByPatientNric = async (req, res) => {
+  const contact = await Contacts.findOne({
+    contact_patientNric: req.body.contact_patientNric,
+  });
   res.json(contact);
 };
 
@@ -24,8 +37,8 @@ const putContact = async (req, res) => {
   }
 
   const createdContact = new Contacts({
-    contact_firstName: req.body.contact_firstName,
-    contact_lastName: req.body.contact_lastName,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
     contact_gender: req.body.contact_gender,
     contact_phoneNumber: req.body.contact_phoneNumber,
     contact_order: req.body.contact_order,
@@ -38,7 +51,7 @@ const putContact = async (req, res) => {
   res.json({ status: "ok", msg: "created" });
 };
 
-const deleteContact = async (req, res) => {
+const deleteContacts = async (req, res) => {
   //   await Contacts.findByIdAndDelete(req.body.id);
 
   const { id } = req.body;
@@ -52,9 +65,9 @@ const patchContact = async (req, res) => {
     { _id: req.body.id },
     {
       contact_id: req.body.contact_id,
-      contact_firstName: req.body.contact_firstName,
-      contact_lastName: req.body.contact_lastName,
-      contact_gender: req.body.gender,
+      firstName: req.body.firstName,
+      contact_gender: req.body.contact_gender,
+      lastName: req.body.lastName,
       contact_phoneNumber: req.body.contact_phoneNumber,
       contact_order: req.body.contact_order,
       contact_password: req.body.contact_password,
@@ -67,8 +80,10 @@ const patchContact = async (req, res) => {
 
 module.exports = {
   getContacts,
-  postContactByNric,
-  putContact,
-  deleteContact,
-  patchContact,
+  postContactById,
+  postContactByPatientNric,
+  postContactByPhoneNumber,
+  putContacts,
+  deleteContacts,
+  patchContacts,
 };
