@@ -5,9 +5,9 @@ const {
   postContactByPhoneNumber,
   postContactByPatientNric,
   postContactById,
-  putContacts,
+  putContact,
   deleteContacts,
-  patchContacts,
+  patchContact,
 } = require("../controllers/contacts");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
@@ -18,8 +18,8 @@ router.post("/contacts/id", postContactById);
 router.post("/contacts/phone", postContactByPhoneNumber);
 router.post("/contacts/nric", postContactByPatientNric);
 
-router.put("/contacts", validateInsertContactData, putContacts);
+router.put("/contacts", validateInsertContactData, putContact);
 router.delete("/contacts", deleteContacts);
-router.patch("/contacts/:id", patchContacts);
+router.patch("/contacts/:id", patchContact);
 
 module.exports = router;

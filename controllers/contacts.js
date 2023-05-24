@@ -83,7 +83,7 @@ module.exports = {
   postContactById,
   postContactByPatientNric,
   postContactByPhoneNumber,
-  putContacts,
+  putContact,
   deleteContacts,
-  patchContacts,
+  patchContact,
 };
