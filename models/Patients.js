@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 const PatientsSchema = new mongoose.Schema(
   {
-    patient_firstName: { type: String, require: true },
-    patient_lastName: { type: String, require: true },
+    firstName: { type: String, require: true },
+    lastName: { type: String, require: true },
     patient_gender: { type: String, require: true },
     patient_nric: { type: String, require: true },
     patient_phoneNumber: { type: Number, require: true },
@@ -17,7 +17,7 @@ const PatientsSchema = new mongoose.Schema(
     patient_ward: { type: Number, require: true },
     patient_bed: { type: Number, require: true },
   },
-  { collection: "patients" }
+  { collection: "patients", useNewUrlParser: true, dbName: "healthconnect" }
 );
 
 module.exports = mongoose.model("Patients", PatientsSchema);

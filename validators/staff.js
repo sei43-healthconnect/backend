@@ -1,8 +1,8 @@
-const { body, param } = require("express-validator");
+const { body, param, check } = require("express-validator");
 
 const validateInsertStaffData = [
-  body("staff_firstName", "First name is required").not().isEmpty(),
-  body("staff_lastName", "Last Name is required").not().isEmpty(),
+  body("firstName", "First name is required").not().isEmpty(),
+  body("lastName", "Last Name is required").not().isEmpty(),
   body("staff_nric", "NRIC must be exactly 9 characters long").isLength({
     min: 9,
     max: 9,

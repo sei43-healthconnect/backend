@@ -2,27 +2,24 @@ const express = require("express");
 const router = express.Router();
 const {
   getContacts,
-  postContacts,
-  putContacts,
+  postContactByPhoneNumber,
+  postContactByPatientNric,
+  postContactById,
+  putContact,
   deleteContacts,
-  patchContacts,
-  seedData,
+  patchContact,
 } = require("../controllers/contacts");
 const { check } = require("express-validator");
 const auth = require("../middleware/auth");
+const { validateInsertContactData } = require("../validators/contacts");
 
 router.get("/contacts", getContacts);
-router.post("/contacts", postContacts);
-router.put(
-  "/contacts",
-  [
-    check("contact_firstName", "First name is required").not().isEmpty(),
-    check("contact_lastName", "Last Name is required").not().isEmpty(),
-  ],
-  putContacts
-);
+router.post("/contacts/id", postContactById);
+router.post("/contacts/phone", postContactByPhoneNumber);
+router.post("/contacts/nric", postContactByPatientNric);
+
+router.put("/contacts", validateInsertContactData, putContact);
 router.delete("/contacts", deleteContacts);
-router.patch("/contacts/:id", patchContacts);
-router.get("/seed", seedData);
+router.patch("/contacts/:id", patchContact);
 
 module.exports = router;
